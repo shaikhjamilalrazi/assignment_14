@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { SignJWT } from "jose";
 
 export async function POST(req, res) {
     const JSONBody = req.json();
